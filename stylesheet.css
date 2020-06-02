@@ -1,0 +1,31 @@
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #ffa41b;
+    width: 33%;
+    text-align: center;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+#menu {
+    display: block;
+    color: #ffa41b;
+    padding: 8px;
+    background-color: #000839;
+    text-decoration: none;
+}
+
+#menu:hover {
+    color: #000839;
+    background-color: #ffa41b;
+}
