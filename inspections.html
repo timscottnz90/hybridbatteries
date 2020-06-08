@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Battery Returns - Daily Inspections</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <center>
+    <h1>TOYOTA NEW ZEALAND</h1>
+    <h3>Hybrid Battery Returns</h3>
+    <hr size="4" color="red" noshade>
+    </center>
+    <div class="horizontal-menu">
+        <ul>
+            <li><a id="menu" href="index.html">Home</a></li>
+            <li><a id="menu" href="receipt-batteries.html" class="active">Receipt Batteries</a></li>
+            <li><a id="menu" href="pallet-complete.html">Pallet Completions</a></li>
+            <li><a id="menu" href="inspections.html">Daily Inspections</a></li>
+        </ul>
+    </div>
+    <div class="form1">
+        <form id="palletForm">
+            <table cellspacing="10">
+                <tr>
+                    <td><label>Date of Check</label></td>
+                    <td><input type="date" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>Staff Member:</label></td>
+                    <td><input type="text" name="" required placeholder="First Name"></td>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" name="" required placeholder="Last Name"></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td><label>Storage Area Floor:</label></td>
+                    <td><select id="floor" name="floor">
+                        <option value="pleaseSelect">Please Select...</option>
+                        <option value="intact">Intact & Undamaged</option>
+                        <option value="damaged">Damaged - Please Note</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="floorDamage">Floor Damage Photo:</label></td>
+                    <td><input type="file" id="floorDamage" name="floorDamage" accept="image/png, image/jpeg"></td>
+                </tr>
+                <tr>
+                    <td>Max Storage & Person in Charge Up-To-Date?</td>
+                    <td><input type="checkbox" id="yes" name="yes"><label for="yes">Yes</label></td>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="no" name="no"><label for="no">No - Please Note...</label></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>MSDS & Emergency Plan Up-To-Date?</td>
+                    <td><input type="checkbox" id="yes" name="yes"><label for="yes">Yes</label></td>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="no" name="no"><label for="no">No - Please Note...</label></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>Functional Fire Extinguisher & Spill Kit Present?</td>
+                    <td><input type="checkbox" id="yes" name="yes"><label for="yes">Yes</label></td>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="no" name="no"><label for="no">No - Please Note...</label></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>PPE Sign Present?</td>
+                    <td><input type="checkbox" id="yes" name="yes"><label for="yes">Yes</label></td>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="no" name="no"><label for="no">No - Please Note...</label></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>Notes of Concern</td>
+                    <td><textarea id="notes" name="notes" rows="5" cols="33"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" id="submitbtn" value="Submit Inspection Report">
+            <input type="reset" id="resetbtn" value="Reset">
+        </form>
+    </div>
+    <hr size="3" color="red" noshade>
+    <h5><a id="backbtn" href="index.html">Back to Main Menu</a></h5>
+    <hr size="3" color="red" noshade>
+</body>
+</html>

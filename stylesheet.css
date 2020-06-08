@@ -9,7 +9,7 @@ ul {
 li {
     float: left;
     border-right: 1px solid #ffa41b;
-    width: 33%;
+    width: 24%;
     text-align: center;
 }
 
@@ -32,4 +32,53 @@ li:last-child {
 
 .form1 {
     margin-top: 60px;
+}
+
+#backbtn {
+    text-decoration: none;
+    color: #000839;
+}
+
+#submitbtn {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: center;
+    position: relative;
+}
+
+#submitbtn:hover {
+    border-color: #7A7A7A;
+}
+
+#submitbtn:active {
+    background-color: #999999;
+}
+
+#resetbtn {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: center;
+    position: relative;
+}
+
+#resetbtn:hover {
+    border-color: #7A7A7A;
+}
+
+#resetbtn:active {
+    background-color: #999999;
 }
